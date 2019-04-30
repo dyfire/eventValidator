@@ -1,0 +1,25 @@
+{
+  "name": "validator/event",
+  "description": "laravel validator extension",
+  "authors": [
+    {
+      "name": "joy",
+      "email": "guanlangaoshou_0@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": "~5.5"
+  },
+  "require-dev": {
+    "laravel/laravel": "~5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Encore\\Admin\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
